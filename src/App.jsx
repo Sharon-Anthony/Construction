@@ -8,7 +8,7 @@ import CTA from './Components/CTA/CTA';
 import VisionMission from './Components/VisionAndMission/VisionMission';
 import Footer from './Components/Footer/Footer';
 import ContactUs from './Components/ContactUs/ContactUs';
-import AboutUs from './Components/AboutUs/AboutUs';
+import AboutUs from './Components/AboutUS/AboutUs';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import ServiceDetail from './Components/Services/ServiceDetails';
 
