@@ -14,7 +14,7 @@ import {
 } from 'react-icons/fa';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import constructionSite from '../../assets/hero.png';
+import constructionSite from '../../assets/Hero.png';
 import truck from '../../assets/Contactus.jpg';
 
 const ContactUs = () => {
