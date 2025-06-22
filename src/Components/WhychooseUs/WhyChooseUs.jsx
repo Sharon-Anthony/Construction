@@ -7,7 +7,7 @@ import {
   FaAward,
   FaShieldAlt,
 } from "react-icons/fa";
-import backgroundImage from '../../assets/3.jpg';
+import backgroundImage from '../../assets/3.png';
 
 
 const features = [

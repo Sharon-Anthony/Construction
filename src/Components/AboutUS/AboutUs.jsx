@@ -4,7 +4,7 @@ import { FiCheckCircle, FiAward, FiUsers } from 'react-icons/fi';
 import { FaHardHat } from 'react-icons/fa';
 import constructionTeam from '../../assets/poster.jpg';
 import projectSite from '../../assets/Hero.png';
-import blueprint from '../../assets/1.jpg';
+import blueprint from '../../assets/1.png';
 import FAQ from '../../Components/FAQ/FAQ';
 import CountUp from 'react-countup';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaCheck, FaClipboardList } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import backgroundImage from '../../assets/1.jpg';
+import backgroundImage from '../../assets/1.png';
 
 const CTA = () => {
   return (

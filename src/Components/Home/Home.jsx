@@ -45,7 +45,8 @@ const HomePage = () => {
               src={poster} 
               alt="Construction site" 
               className="w-full h-full object-cover"
-              loading="eager"
+              loading="lazy"
+              decoding="async"
             />
           )}
         </div>

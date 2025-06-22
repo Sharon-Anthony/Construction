@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect, useCallback } from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { motion } from 'framer-motion';
-import { ArrowLeft, ArrowRight,ChevronsRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ChevronsRight } from 'lucide-react';
 import { services } from '../Services/ServiceData';
 import { useNavigate } from 'react-router-dom';
 
@@ -56,7 +56,7 @@ const Services = () => {
   return (
     <section id="services" className="py-16 bg-gray-50 relative overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6">
-        
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -73,12 +73,12 @@ const Services = () => {
         </motion.div>
 
         <div className="relative group">
-        <div className='absolute right-0 top-[-60px] '>  <button
-  onClick={() => navigate('/services')}
-  className="px-6 py-3 bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white font-medium rounded-full transition-all duration-300 shadow-md hover:shadow-lg flex items-center"
->
-  View All Services <ChevronsRight size={18} className="ml-2" />
-</button></div>
+          <div className='absolute right-0 top-[-60px] '>  <button
+            onClick={() => navigate('/services')}
+            className="px-6 py-3 bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white font-medium rounded-full transition-all duration-300 shadow-md hover:shadow-lg flex items-center"
+          >
+            View All Services <ChevronsRight size={18} className="ml-2" />
+          </button></div>
           {loaded && instanceRef.current && (
             <>
               <button
@@ -154,7 +154,7 @@ const Services = () => {
                 </motion.div>
               </div>
             ))}
-            
+
           </div>
 
           {loaded && instanceRef.current && (
@@ -169,11 +169,11 @@ const Services = () => {
                 />
               ))}
             </div>
-            
+
           )}
-          
+
         </div>
-        
+
       </div>
 
 
