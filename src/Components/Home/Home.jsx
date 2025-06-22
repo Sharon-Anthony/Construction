@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaHardHat, FaArrowRight } from 'react-icons/fa';
-import cvideo from '../../assets/construction-hero.mp4';
-import poster from '../../assets/Hero.png';
+import cvideo from '../../../public/construction-hero.mp4';
+import poster from '../../../public/Hero.png';
 
 
 const HomePage = () => {
@@ -25,32 +25,7 @@ const HomePage = () => {
       <div className="absolute inset-0 bg-black/40  z-10" />
 
         
-        {/* Background Media */}
-        <div className="absolute inset-0 overflow-hidden">
-          {showVideo ? (
-            <video
-            src={cvideo}
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="none"
-              poster={poster}
-              className="w-full h-full object-cover"
-              onLoadedData={() => setIsVideoLoaded(true)}
-            >
-            </video>
-          ) : (
-            <img 
-              src={poster} 
-              alt="Construction site" 
-              className="w-full h-full object-cover"
-              loading="lazy"
-              decoding="async"
-            />
-          )}
-        </div>
-
+        
         {/* Content */}
         <div className="container mx-auto px-4 relative z-20 text-white">
           <motion.div
@@ -85,6 +60,33 @@ const HomePage = () => {
             </div>
           </motion.div>
         </div>
+
+        {/* Background Media */}
+        <div className="absolute inset-0 overflow-hidden">
+          {showVideo ? (
+            <video
+            src={cvideo}
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="none"
+              poster={poster}
+              className="w-full h-full object-cover"
+              onLoadedData={() => setIsVideoLoaded(true)}
+            >
+            </video>
+          ) : (
+            <img 
+              src={poster} 
+              alt="Construction site" 
+              className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
+          )}
+        </div>
+
 
       </section>
     </div>
