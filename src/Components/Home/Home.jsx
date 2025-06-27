@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaHardHat, FaArrowRight } from 'react-icons/fa';
-import cvideo from '../../../public/construction-hero.mp4';
-import poster from '../../../public/Hero.png';
+
+
+
+const cvideo = "/construction-hero.mp4";
+const poster = "/Hero.png";
 
 
 const HomePage = () => {
